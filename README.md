@@ -27,7 +27,7 @@ A double key, subjects and activities, is set for the aggregateDT table. The gro
 
 #### Part Three
 
-The last 7 lines of code are used to demonstrate an example of the contents of the meanDT data table. The meanDT data.tables is first removed from the work space, then fread from the saved file back into the work space. Several rows and columns of each are then read to stdout to show the results of having generated the data.table.
+The last 6 lines of code are used to demonstrate an example of the contents of the meanDT data table. The meanDT data.tables is first removed from the work space, then fread from the saved file back into the work space. Several rows and columns of each are then read to stdout to show the results of having generated the data.table.
 
 
 
