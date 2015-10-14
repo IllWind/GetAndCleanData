@@ -95,7 +95,7 @@ activityVector<-c("Walking","WalkingUpStairs","WalkingDownStairs","Sitting","Sta
 activities<-sapply(activities,function(event) {activities[activities==event]<-activityVector[event]} )
 
 # The following 2 lines add the activities and subjects columns to the table;
-#	it now has 563 columns.  The table is clean, tidy, and ready for analysis.
+#	it now has 563 columns.  The table is ready for analysis.
 aggregateDT[,activities:=activities]
 aggregateDT[,subjects:=subjects]
 
